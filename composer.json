@@ -1,0 +1,22 @@
+{
+    "name": "test",
+    "type": "(パッケージ種別)",
+    "description": "gitのテスト",
+    "homepage": "https://github.com/kan96/test",
+    "authors": [{
+            "name": "kan"
+    }],
+    "repositories": [
+        {
+            "url": "(packages.json参照先)",
+            "type": "composer"
+        },
+        {"packagist": false}
+    ],
+    "require": {
+        "(依存パッケージ名1)":"(バージョン)",
+        "(依存パッケージ名2)":"(バージョン)",
+        "(依存パッケージ名3)":"(バージョン)"
+    },
+    "minimum-stability": "dev"
+}
